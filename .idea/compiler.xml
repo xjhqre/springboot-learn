@@ -16,6 +16,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot" target="1.5" />
+      <module name="springboot-jdbcTemplate" target="1.8" />
       <module name="springboot-learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
