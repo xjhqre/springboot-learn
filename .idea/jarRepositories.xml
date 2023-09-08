@@ -2,9 +2,24 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+      <option name="id" value="central_maven" />
+      <option name="name" value="central maven" />
+      <option name="url" value="http://central.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aliyun" />
+      <option name="name" value="aliyun maven" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ccssoft" />
+      <option name="name" value="ccssoft" />
+      <option name="url" value="http://199.3.15.23:8080/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jeecg" />
+      <option name="name" value="jeecg Repository" />
+      <option name="url" value="http://199.3.15.23:8080/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -19,7 +34,7 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
-      <option name="url" value="https://maven.aliyun.com/repository/public" />
+      <option name="url" value="http://199.3.15.23:8080/nexus/content/groups/public/" />
     </remote-repository>
   </component>
 </project>

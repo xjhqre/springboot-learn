@@ -4,20 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7f2cfe0-8abb-4e46-9b9a-4328e2aa943f" name="变更" comment="">
+    <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-flowable/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-flowable/src/main/java/com/xjhqre/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-flowable/src/main/resources/holiday-request.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-flowable/src/test/java/com/xjhqre/FlowTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jdbcTemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jdbcTemplate/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,55 +27,66 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/flowable/flowable-engine/6.6.0/flowable-engine-6.6.0-sources.jar!/org/flowable/engine/impl/RuntimeServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/flowable/flowable-engine/6.6.0/flowable-engine-6.6.0-sources.jar!/org/flowable/engine/impl/cmd/StartProcessInstanceCmd.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/flowable/flowable-engine/6.6.0/flowable-engine-6.6.0-sources.jar!/org/flowable/engine/impl/persistence/entity/ExecutionEntityImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/flowable/flowable-engine/6.6.0/flowable-engine-6.6.0-sources.jar!/org/flowable/engine/runtime/ProcessInstance.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/flowable/flowable-variable-service/6.6.0/flowable-variable-service-6.6.0-sources.jar!/org/flowable/variable/service/impl/persistence/entity/VariableInstanceEntity.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/flowable/flowable-variable-service/6.6.0/flowable-variable-service-6.6.0-sources.jar!/org/flowable/variable/service/impl/persistence/entity/VariableScopeImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar!/lombok/extern/slf4j/Slf4j.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/boot/spring-boot/2.4.4/spring-boot-2.4.4.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.4\conf\settings-ccs.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2NwSRPjAmihEAj1Hwt7PZsSxpHv" />
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2UNQJQtrWMw8QGCshbzHU4iWVFB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "aspect.path.notification.shown": "true",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "D:/workspace/springboot-learn",
-    "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.45437616",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "b84dc5140381360638b76e3f458127af",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\springboot-learn\springboot-jdbcTemplate\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.JdbcTemplateTest.queryTest">
-    <configuration name="JdbcTemplateTest.queryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-jdbcTemplate" />
+  <component name="RunManager" selected="JUnit.FlowTest.testDeployQuery">
+    <configuration name="FlowTest.processInstanceQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-flowable" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xjhqre.*" />
@@ -82,51 +94,97 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xjhqre" />
-      <option name="MAIN_CLASS_NAME" value="com.xjhqre.JdbcTemplateTest" />
-      <option name="METHOD_NAME" value="queryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
+      <option name="METHOD_NAME" value="processInstanceQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-jdbcTemplate" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xjhqre.Main" />
+    <configuration name="FlowTest.testDeleteDeploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-flowable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.xjhqre.*" />
+          <option name="PATTERN" value="com.xjhqre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xjhqre" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
+      <option name="METHOD_NAME" value="testDeleteDeploy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTest.testDeploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-flowable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjhqre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjhqre" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
+      <option name="METHOD_NAME" value="testDeploy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTest.testDeployQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-flowable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjhqre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjhqre" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
+      <option name="METHOD_NAME" value="testDeployQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTest.testRunProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-flowable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjhqre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjhqre" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
+      <option name="METHOD_NAME" value="testRunProcess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JdbcTemplateTest.queryTest" />
-        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.FlowTest.testDeployQuery" />
+        <item itemvalue="JUnit.FlowTest.processInstanceQuery" />
+        <item itemvalue="JUnit.FlowTest.testRunProcess" />
+        <item itemvalue="JUnit.FlowTest.testDeploy" />
+        <item itemvalue="JUnit.FlowTest.testDeleteDeploy" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\xjhqre\AppData\Roaming\Subversion</configuration>
-    <option name="sshConnectionType" value="PRIVATE_KEY" />
-    <option name="sshExecutablePath" value="D:\Program Files (x86)\TortoiseSVN\bin\TortoisePlink.exe -pw xujh" />
-    <option name="sshUserName" value="xujiahui" />
-    <option name="sshPrivateKeyPath" value="D:\Tool\xujiahui.ppk" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="d7f2cfe0-8abb-4e46-9b9a-4328e2aa943f" name="变更" comment="" />
-      <created>1680573643397</created>
+      <changelist id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="" />
+      <created>1692777487322</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680573643397</updated>
-      <workItem from="1680573644959" duration="3164000" />
-      <workItem from="1687769991471" duration="42000" />
-      <workItem from="1687770041580" duration="672000" />
+      <updated>1692777487322</updated>
+      <workItem from="1692777488359" duration="2568000" />
+      <workItem from="1692842666139" duration="7025000" />
     </task>
     <servers />
   </component>

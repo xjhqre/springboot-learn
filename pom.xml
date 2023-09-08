@@ -12,6 +12,7 @@
     <modules>
         <module>springboot-jdbcTemplate</module>
         <module>springboot-websocket</module>
+        <module>springboot-flowable</module>
     </modules>
 
 
