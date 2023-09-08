@@ -11,6 +11,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-flowable" />
+        <module name="springboot-saToken" />
         <module name="springboot-jdbcTemplate" />
         <module name="springboot-jackson" />
         <module name="springboot-websocket" />
@@ -22,6 +23,7 @@
       <module name="springboot-flowable" options="-parameters" />
       <module name="springboot-jackson" options="-parameters" />
       <module name="springboot-jdbcTemplate" options="-parameters" />
+      <module name="springboot-saToken" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
     </option>
   </component>

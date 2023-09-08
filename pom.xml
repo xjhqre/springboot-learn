@@ -14,6 +14,7 @@
         <module>springboot-websocket</module>
         <module>springboot-flowable</module>
         <module>springboot-jackson</module>
+        <module>springboot-saToken</module>
     </modules>
 
 
