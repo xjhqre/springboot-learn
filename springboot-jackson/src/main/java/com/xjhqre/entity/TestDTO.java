@@ -1,7 +1,6 @@
 package com.xjhqre.entity;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 /**
  * <p>
@@ -14,9 +13,9 @@ import java.util.List;
 public class TestDTO {
 
     // @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    LocalDateTime localDateTime;
+    private LocalDateTime localDateTime;
 
-    List<String> list;
+    private String name;
 
     public LocalDateTime getLocalDateTime() {
         return localDateTime;
@@ -26,12 +25,12 @@ public class TestDTO {
         this.localDateTime = localDateTime;
     }
 
-    public List<String> getList() {
-        return list;
+    public String getName() {
+        return name;
     }
 
-    public void setList(List<String> list) {
-        this.list = list;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override

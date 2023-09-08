@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/springboot-jackson/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/config/JacksonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/entity/TestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/utils/JacksonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jackson/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/entity/TestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/entity/TestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/utils/JacksonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/utils/JacksonUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +188,7 @@
       <workItem from="1692777488359" duration="2568000" />
       <workItem from="1692842666139" duration="7025000" />
       <workItem from="1694141879717" duration="679000" />
-      <workItem from="1694142572075" duration="14334000" />
+      <workItem from="1694142572075" duration="14738000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -205,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694141906196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1694164020553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694164020553</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -16,7 +16,6 @@ import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.InjectableValues;
 import com.fasterxml.jackson.databind.JavaType;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -71,17 +70,17 @@ public class JacksonUtils {
             }
         });
         objectMapper_wrapRoot = JacksonConfiguration.createJackson2ObjectMapperBuilder()
-            .featuresToDisable(new Object[] {DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES})
+            .featuresToDisable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
             .annotationIntrospector(new JacksonAnnotationIntrospector()).build();
         objectMapper_wrapRoot.enable(SerializationFeature.WRAP_ROOT_VALUE);
         objectMapper_wrapRoot.setInjectableValues(new InjectableValues() {
             public Object findInjectableValue(Object valueId, DeserializationContext ctxt, BeanProperty forProperty,
-                Object beanInstance) throws JsonMappingException {
+                Object beanInstance) {
                 return null;
             }
         });
         objectMapper_notNull = JacksonConfiguration.createJackson2ObjectMapperBuilder()
-            .featuresToDisable(new Object[] {DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES})
+            .featuresToDisable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
             .serializationInclusion(Include.NON_NULL).annotationIntrospector(new JacksonAnnotationIntrospector())
             .build();
         objectMapper_notNull.setInjectableValues(objectMapper.getInjectableValues());
@@ -172,9 +171,9 @@ public class JacksonUtils {
             try {
                 JavaType javaType =
                     objectMapper.getTypeFactory().constructMapType(LinkedHashMap.class, String.class, valueClass);
-                return (Map)objectMapper.readValue(jsonString, javaType);
-            } catch (IOException var3) {
-                throw new RuntimeException(var3);
+                return objectMapper.readValue(jsonString, javaType);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         }
     }
@@ -186,14 +185,14 @@ public class JacksonUtils {
     public static <T> List<Map<String, T>> json2MapList(String jsonArrayStr, Class<T> valueClass) {
         JavaType mapType =
             objectMapper.getTypeFactory().constructMapType(LinkedHashMap.class, String.class, valueClass);
-        return json2List(jsonArrayStr, (JavaType)mapType);
+        return json2List(jsonArrayStr, mapType);
     }
 
     public static <T> List<T> json2List(String jsonArrayStr, Class<T> clazz) {
         if (StringUtils.isBlank(jsonArrayStr)) {
             return null;
         } else {
-            JavaType entityType = objectMapper.getTypeFactory().constructSimpleType(clazz, (JavaType[])null);
+            JavaType entityType = objectMapper.getTypeFactory().constructSimpleType(clazz, null);
             return json2List(jsonArrayStr, entityType);
         }
     }
@@ -204,9 +203,9 @@ public class JacksonUtils {
         } else {
             try {
                 JavaType javaType = objectMapper.getTypeFactory().constructCollectionType(ArrayList.class, entityType);
-                return (List)objectMapper.readValue(jsonArrayStr, javaType);
-            } catch (IOException var3) {
-                throw new RuntimeException(var3);
+                return objectMapper.readValue(jsonArrayStr, javaType);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         }
     }

@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.xjhqre.entity.TestDTO;
+import com.xjhqre.utils.JacksonUtils;
 
 /**
  * <p>
@@ -41,6 +42,46 @@ public class TestController {
     @PostMapping("/test3")
     public void test3(@RequestBody TestDTO testDTO) {
         System.out.println(testDTO);
+    }
+
+    @GetMapping("/test4")
+    public String test4() {
+        TestDTO testDTO = new TestDTO();
+        testDTO.setLocalDateTime(LocalDateTime.now());
+        return JacksonUtils.obj2Json(testDTO);
+        /*
+        {
+        "localDateTime": "2023-09-08 17:10:55",
+        "name": null
+        }
+         */
+    }
+
+    @GetMapping("/test5")
+    public String test5() {
+        TestDTO testDTO = new TestDTO();
+        testDTO.setLocalDateTime(LocalDateTime.now());
+        return JacksonUtils.obj2JsonWrapRoot(testDTO);
+        /*
+        {
+        "TestDTO": {
+        "localDateTime": "2023-09-08 17:11:08",
+        "name": null
+        }
+        }
+         */
+    }
+
+    @GetMapping("/test6")
+    public String test6() {
+        TestDTO testDTO = new TestDTO();
+        testDTO.setLocalDateTime(LocalDateTime.now());
+        return JacksonUtils.obj2JsonIgnoreNull(testDTO);
+        /*
+        {
+        "localDateTime": "2023-09-08 17:11:23"
+        }
+         */
     }
 
 }
