@@ -12,6 +12,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-flowable" />
         <module name="springboot-jdbcTemplate" />
+        <module name="springboot-jackson" />
         <module name="springboot-websocket" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-flowable" options="-parameters" />
+      <module name="springboot-jackson" options="-parameters" />
       <module name="springboot-jdbcTemplate" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
     </option>
