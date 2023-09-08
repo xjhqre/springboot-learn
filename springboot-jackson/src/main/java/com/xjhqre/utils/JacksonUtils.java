@@ -94,7 +94,7 @@ public class JacksonUtils {
         } else {
             try {
                 return objectMapper.readTree(json);
-            } catch (Exception var1) {
+            } catch (Exception e) {
                 return objectMapper.valueToTree(json);
             }
         }
@@ -106,8 +106,8 @@ public class JacksonUtils {
         } else {
             try {
                 return objectMapper.writeValueAsString(obj);
-            } catch (JsonProcessingException var2) {
-                throw new RuntimeException(var2);
+            } catch (JsonProcessingException e) {
+                throw new RuntimeException(e);
             }
         }
     }
@@ -118,8 +118,8 @@ public class JacksonUtils {
         } else {
             try {
                 return objectMapper_wrapRoot.writeValueAsString(obj);
-            } catch (JsonProcessingException var2) {
-                throw new RuntimeException(var2);
+            } catch (JsonProcessingException e) {
+                throw new RuntimeException(e);
             }
         }
     }
@@ -130,8 +130,8 @@ public class JacksonUtils {
         } else {
             try {
                 return objectMapper_notNull.writeValueAsString(obj);
-            } catch (JsonProcessingException var2) {
-                throw new RuntimeException(var2);
+            } catch (JsonProcessingException e) {
+                throw new RuntimeException(e);
             }
         }
     }
@@ -142,8 +142,8 @@ public class JacksonUtils {
         } else {
             try {
                 return objectMapper.readValue(jsonString, clazz);
-            } catch (IOException var3) {
-                throw new RuntimeException(var3);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         }
     }
@@ -154,8 +154,8 @@ public class JacksonUtils {
         } else {
             try {
                 return objectMapper.readValue(jsonString, typeReference);
-            } catch (IOException var3) {
-                throw new RuntimeException(var3);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         }
     }
