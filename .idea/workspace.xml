@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/springboot-saToken/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/OssApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/OssAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/config/OssProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/template/OssTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/template/impl/OssTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/SaTokenApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/config/StpInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jackson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jackson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-saToken/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-saToken/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +87,7 @@
     "aspect.path.notification.shown": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-jackson/src/main/resources",
+    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-oss/src/main/resources",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -82,16 +95,24 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33103448",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "f95bf57637bbb136d9f6afe5505f0a66",
+    "spring.configuration.checksum": "f74b1e436bc0868b3ee35a0728929f2c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
+      <recent name="D:\workspace\springboot-learn\springboot-saToken\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-jackson\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xjhqre" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="Spring Boot.SaTokenApp">
     <configuration name="FlowTest.processInstanceQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-flowable" />
       <extension name="coverage">
@@ -103,22 +124,6 @@
       <option name="PACKAGE_NAME" value="com.xjhqre" />
       <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
       <option name="METHOD_NAME" value="processInstanceQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlowTest.testDeploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-flowable" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjhqre.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xjhqre" />
-      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
-      <option name="METHOD_NAME" value="testDeploy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,13 +174,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OssApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="oss-spring-boot-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.OssApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaTokenApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-saToken" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.SaTokenApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjhqre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SaTokenApp" />
         <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.FlowTest.testDeployQuery" />
         <item itemvalue="JUnit.FlowTest.processInstanceQuery" />
         <item itemvalue="JUnit.FlowTest.testRunProcess" />
-        <item itemvalue="JUnit.FlowTest.testDeploy" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +215,9 @@
       <workItem from="1692777488359" duration="2568000" />
       <workItem from="1692842666139" duration="7025000" />
       <workItem from="1694141879717" duration="679000" />
-      <workItem from="1694142572075" duration="15660000" />
+      <workItem from="1694142572075" duration="15892000" />
+      <workItem from="1694165778774" duration="3167000" />
+      <workItem from="1694416097753" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -224,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694164570801</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1694165561703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694165561703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

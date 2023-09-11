@@ -11,6 +11,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-flowable" />
+        <module name="oss-spring-boot-starter" />
         <module name="springboot-saToken" />
         <module name="springboot-jdbcTemplate" />
         <module name="springboot-jackson" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="oss-spring-boot-starter" options="-parameters" />
       <module name="springboot-flowable" options="-parameters" />
       <module name="springboot-jackson" options="-parameters" />
       <module name="springboot-jdbcTemplate" options="-parameters" />
