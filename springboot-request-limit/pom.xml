@@ -12,7 +12,7 @@
     </parent>
 
     <artifactId>springboot-request-limit</artifactId>
-    <description>springboot接口限流，滑动窗口实现</description>
+    <description>springboot接口限流</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

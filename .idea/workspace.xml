@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/springboot-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/RedisApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/com/xjhqre/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/RequestLimitApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/annotation/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/aspect/RateLimiterAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/enums/LimitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/utils/RequestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-saToken/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-saToken/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-request-limit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-request-limit/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +223,7 @@
       <workItem from="1694142572075" duration="15892000" />
       <workItem from="1694165778774" duration="3167000" />
       <workItem from="1694416097753" duration="2158000" />
-      <workItem from="1694485980923" duration="9123000" />
+      <workItem from="1694485980923" duration="9206000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -298,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694417650498</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1694500316786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694500316786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
