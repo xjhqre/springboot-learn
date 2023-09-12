@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/OssApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/OssAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/config/OssProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/template/OssTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/java/com/xjhqre/template/impl/OssTemplateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oss-spring-boot-starter/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/SaTokenApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/config/StpInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/java/com/xjhqre/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-saToken/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/RedisApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/com/xjhqre/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/RequestLimitApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/annotation/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/aspect/RateLimiterAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/enums/LimitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/java/com/xjhqre/utils/RequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-request-limit/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -33,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,7 +90,7 @@
     "aspect.path.notification.shown": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-oss/src/main/resources",
+    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-request-limit/src/main/java/com/xjhqre",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -95,15 +98,20 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33103448",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "f74b1e436bc0868b3ee35a0728929f2c",
+    "spring.configuration.checksum": "43a2cbac7128e79d3023fc333137c427",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\java\com\xjhqre" />
+      <recent name="D:\workspace\springboot-learn\springboot-redis\src\main\resources" />
+      <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-saToken\src\main\resources" />
-      <recent name="D:\workspace\springboot-learn\springboot-jackson\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
@@ -112,9 +120,9 @@
       <recent name="com.xjhqre" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SaTokenApp">
-    <configuration name="FlowTest.processInstanceQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-flowable" />
+  <component name="RunManager" selected="Spring Boot.RequestLimitApp">
+    <configuration name="RedisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-redis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xjhqre.*" />
@@ -122,15 +130,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xjhqre" />
-      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
-      <option name="METHOD_NAME" value="processInstanceQuery" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.RedisTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="--spring.redis.host" value="116.62.103.149" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowTest.testDeployQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-flowable" />
+    <configuration name="RedisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-redis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xjhqre.*" />
@@ -138,25 +149,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xjhqre" />
-      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
-      <option name="METHOD_NAME" value="testDeployQuery" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.RedisTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlowTest.testRunProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-flowable" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjhqre.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xjhqre" />
-      <option name="MAIN_CLASS_NAME" value="com.xjhqre.FlowTest" />
-      <option name="METHOD_NAME" value="testRunProcess" />
-      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="--spring.redis.host" value="116.62.103.149" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +179,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestLimitApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="--spring.redis.host" value="116.62.103.149" />
+      </envs>
+      <module name="springboot-request-limit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.RequestLimitApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjhqre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SaTokenApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-saToken" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.SaTokenApp" />
@@ -194,13 +208,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RedisTest.test1" />
+      <item itemvalue="JUnit.RedisTest.test2" />
+      <item itemvalue="Spring Boot.OssApp" />
+      <item itemvalue="Spring Boot.RequestLimitApp" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.SaTokenApp" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RequestLimitApp" />
+        <item itemvalue="JUnit.RedisTest.test1" />
+        <item itemvalue="JUnit.RedisTest.test2" />
         <item itemvalue="Spring Boot.SaTokenApp" />
         <item itemvalue="Spring Boot.App" />
-        <item itemvalue="JUnit.FlowTest.testDeployQuery" />
-        <item itemvalue="JUnit.FlowTest.processInstanceQuery" />
-        <item itemvalue="JUnit.FlowTest.testRunProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +239,8 @@
       <workItem from="1694141879717" duration="679000" />
       <workItem from="1694142572075" duration="15892000" />
       <workItem from="1694165778774" duration="3167000" />
-      <workItem from="1694416097753" duration="1390000" />
+      <workItem from="1694416097753" duration="2158000" />
+      <workItem from="1694485980923" duration="9123000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -259,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694165561703</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1694417515551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694417515551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1694417650498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694417650498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

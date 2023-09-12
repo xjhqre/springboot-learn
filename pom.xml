@@ -16,6 +16,8 @@
         <module>springboot-jackson</module>
         <module>springboot-saToken</module>
         <module>oss-spring-boot-starter</module>
+        <module>springboot-request-limit</module>
+        <module>springboot-redis</module>
     </modules>
 
 
