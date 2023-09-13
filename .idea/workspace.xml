@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/springboot-redis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-request-limit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-idempotence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/java/com/xjhqre/IdempotenceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/java/com/xjhqre/controller/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/java/com/xjhqre/service/TokenUtilService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/test/java/com/xjhqre/IdempotenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-request-limit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-request-limit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +79,7 @@
     "aspect.path.notification.shown": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-request-limit/src/main/java/com/xjhqre",
+    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-idempotence/src/main/resources",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -81,7 +87,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33103448",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "43a2cbac7128e79d3023fc333137c427",
+    "spring.configuration.checksum": "4464d3bde97ed4f07b99fc75e1799b68",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,11 +96,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springboot-learn\springboot-idempotence\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\java\com\xjhqre" />
       <recent name="D:\workspace\springboot-learn\springboot-redis\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
-      <recent name="D:\workspace\springboot-learn\springboot-saToken\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
@@ -103,7 +109,26 @@
       <recent name="com.xjhqre" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RequestLimitApp">
+  <component name="RunManager" selected="JUnit.IdempotenceTest.interfaceIdempotenceTest">
+    <configuration name="IdempotenceTest.interfaceIdempotenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-idempotence" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjhqre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjhqre" />
+      <option name="MAIN_CLASS_NAME" value="com.xjhqre.IdempotenceTest" />
+      <option name="METHOD_NAME" value="interfaceIdempotenceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="--spring.redis.host" value="116.62.103.149" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-redis" />
       <extension name="coverage">
@@ -142,15 +167,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-jackson" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjhqre.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="IdempotenceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-idempotence" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.IdempotenceApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,20 +211,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.IdempotenceTest.interfaceIdempotenceTest" />
       <item itemvalue="JUnit.RedisTest.test1" />
       <item itemvalue="JUnit.RedisTest.test2" />
+      <item itemvalue="Spring Boot.IdempotenceApp" />
       <item itemvalue="Spring Boot.OssApp" />
       <item itemvalue="Spring Boot.RequestLimitApp" />
-      <item itemvalue="Spring Boot.App" />
       <item itemvalue="Spring Boot.SaTokenApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IdempotenceTest.interfaceIdempotenceTest" />
         <item itemvalue="Spring Boot.RequestLimitApp" />
         <item itemvalue="JUnit.RedisTest.test1" />
         <item itemvalue="JUnit.RedisTest.test2" />
         <item itemvalue="Spring Boot.SaTokenApp" />
-        <item itemvalue="Spring Boot.App" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +243,8 @@
       <workItem from="1694142572075" duration="15892000" />
       <workItem from="1694165778774" duration="3167000" />
       <workItem from="1694416097753" duration="2158000" />
-      <workItem from="1694485980923" duration="9206000" />
+      <workItem from="1694485980923" duration="10526000" />
+      <workItem from="1694588077054" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -289,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694500316786</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1694500463199</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694500463199</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

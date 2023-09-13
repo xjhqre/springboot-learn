@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/oss-spring-boot-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-flowable/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-flowable/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-idempotence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-idempotence/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jackson/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jackson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jdbcTemplate/src/main/java" charset="UTF-8" />

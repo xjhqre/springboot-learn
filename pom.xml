@@ -18,6 +18,7 @@
         <module>oss-spring-boot-starter</module>
         <module>springboot-request-limit</module>
         <module>springboot-redis</module>
+        <module>springboot-idempotence</module>
     </modules>
 
 
