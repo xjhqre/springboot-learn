@@ -1,0 +1,1 @@
+对setter方法进行增强，自定义mybatis-plus的sql方法updateResetById，对只调用了set的属性进行更新

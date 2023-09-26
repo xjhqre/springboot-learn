@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/MybatisPlusApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/aspect/EntityAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/resources/application-druid.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/test/java/MybatisPlusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +236,7 @@
       <workItem from="1694590836144" duration="3157000" />
       <workItem from="1694655195446" duration="22000" />
       <workItem from="1695280916512" duration="872000" />
-      <workItem from="1695695533743" duration="5628000" />
+      <workItem from="1695695533743" duration="5733000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -331,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694589168263</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <option name="closed" value="true" />
+      <created>1695702770906</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695702770906</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
