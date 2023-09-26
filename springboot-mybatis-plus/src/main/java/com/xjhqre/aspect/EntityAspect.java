@@ -3,7 +3,10 @@ package com.xjhqre.aspect;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.annotation.SuppressAjWarnings;
+
+import com.xjhqre.entity.BaseEntity;
 
 /**
  * <p>
@@ -18,15 +21,18 @@ import org.aspectj.lang.annotation.SuppressAjWarnings;
 public class EntityAspect {
     public EntityAspect() {}
 
+    // 定义切点
+    @Pointcut(value = "execution(* set*(*)) && target(BaseEntity) && args(newValue)", argNames = "BaseEntity,newValue")
+    public void setterMethod(BaseEntity BaseEntity, Object newValue) {}
+
     @SuppressAjWarnings({"adviceDidNotMatch"})
-    @After(value = "execution(* set*(*)) && target(instance) && args(newValue)",
-        argNames = "thisJoinPoint,instance,newValue")
-    public void afterSetterMethod(JoinPoint thisJoinPoint, Object instance, Object newValue) {
-        // char[] chars = thisJoinPointStaticPart.getSignature().getName().substring(3).toCharArray();
+    @After(value = "setterMethod(BaseEntity, newValue)", argNames = "thisJoinPoint,BaseEntity,newValue")
+    public void afterSetterMethod(JoinPoint thisJoinPoint, BaseEntity BaseEntity, Object newValue) {
+        // char[] chars = thisJoinPoint.getSignature().getName().substring(3).toCharArray();
         // chars[0] = (char)(chars[0] + 32);
-        // System.out.println(chars);
-        // p.onUpdateProperty(String.valueOf(chars));
-        System.out.println(thisJoinPoint.toString());
+        // BaseEntity.onUpdateProperty(String.valueOf(chars));
+        // System.out.println(thisJoinPoint.toString());
+        System.out.println("切面");
 
     }
 
