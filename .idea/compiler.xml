@@ -16,6 +16,7 @@
         <module name="springboot-request-limit" />
         <module name="springboot-websocket" />
         <module name="springboot-flowable" />
+        <module name="springboot-mybatis-plus" />
         <module name="springboot-saToken" />
         <module name="springboot-jdbcTemplate" />
         <module name="springboot-jackson" />
@@ -29,6 +30,7 @@
       <module name="springboot-idempotence" options="-parameters" />
       <module name="springboot-jackson" options="-parameters" />
       <module name="springboot-jdbcTemplate" options="-parameters" />
+      <module name="springboot-mybatis-plus" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-request-limit" options="-parameters" />
       <module name="springboot-saToken" options="-parameters" />

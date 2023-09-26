@@ -10,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/springboot-jackson/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jackson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jdbcTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-plus/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-oss/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis/src/main/resources" charset="UTF-8" />

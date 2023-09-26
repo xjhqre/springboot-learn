@@ -19,6 +19,7 @@
         <module>springboot-request-limit</module>
         <module>springboot-redis</module>
         <module>springboot-idempotence</module>
+        <module>springboot-mybatis-plus</module>
     </modules>
 
 

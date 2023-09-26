@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/springboot-idempotence/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/java/com/xjhqre/IdempotenceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/java/com/xjhqre/controller/TokenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/java/com/xjhqre/service/TokenUtilService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-idempotence/src/test/java/com/xjhqre/IdempotenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/MybatisPlusApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/aspect/EntityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/resources/application-druid.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/test/java/MybatisPlusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xjhqre/config/RedisConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,15 +83,15 @@
     "aspect.path.notification.shown": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-idempotence/src/main/resources",
+    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-mybatis-plus/src/main/resources",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33103448",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "4464d3bde97ed4f07b99fc75e1799b68",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "4e20cf7943b6377c0dabd44c4e2c7353",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,11 +100,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springboot-learn\springboot-mybatis-plus\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-idempotence\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\java\com\xjhqre" />
       <recent name="D:\workspace\springboot-learn\springboot-redis\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\resources" />
-      <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
@@ -109,7 +113,7 @@
       <recent name="com.xjhqre" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IdempotenceTest.interfaceIdempotenceTest">
+  <component name="RunManager" selected="JUnit.MybatisPlusTest.test1">
     <configuration name="IdempotenceTest.interfaceIdempotenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-idempotence" />
       <extension name="coverage">
@@ -125,6 +129,16 @@
       <envs>
         <env name="--spring.redis.host" value="116.62.103.149" />
       </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-mybatis-plus" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisPlusTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,35 +211,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaTokenApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-saToken" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.SaTokenApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjhqre.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.MybatisPlusTest.test1" />
       <item itemvalue="JUnit.IdempotenceTest.interfaceIdempotenceTest" />
       <item itemvalue="JUnit.RedisTest.test1" />
       <item itemvalue="JUnit.RedisTest.test2" />
       <item itemvalue="Spring Boot.IdempotenceApp" />
       <item itemvalue="Spring Boot.OssApp" />
       <item itemvalue="Spring Boot.RequestLimitApp" />
-      <item itemvalue="Spring Boot.SaTokenApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisPlusTest.test1" />
         <item itemvalue="JUnit.IdempotenceTest.interfaceIdempotenceTest" />
         <item itemvalue="Spring Boot.RequestLimitApp" />
         <item itemvalue="JUnit.RedisTest.test1" />
         <item itemvalue="JUnit.RedisTest.test2" />
-        <item itemvalue="Spring Boot.SaTokenApp" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,11 @@
       <workItem from="1694165778774" duration="3167000" />
       <workItem from="1694416097753" duration="2158000" />
       <workItem from="1694485980923" duration="10526000" />
-      <workItem from="1694588077054" duration="874000" />
+      <workItem from="1694588077054" duration="2363000" />
+      <workItem from="1694590836144" duration="3157000" />
+      <workItem from="1694655195446" duration="22000" />
+      <workItem from="1695280916512" duration="872000" />
+      <workItem from="1695695533743" duration="5628000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -318,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694500463199</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1694589168263</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694589168263</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
