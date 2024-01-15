@@ -15,5 +15,5 @@ import com.xjhqre.entity.Student;
  * @since 9月 26, 2023
  */
 @Mapper
-@TableName("student")
-public interface StudentMapper extends BaseMapper<Student> {}
+@TableName("student_his")
+public interface StudentHisMapper extends BaseMapper<Student> {}

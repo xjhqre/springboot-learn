@@ -4,7 +4,6 @@
     <option name="ajcPath" value="$PROJECT_DIR$/../../maven/repository/org/aspectj/aspectjtools/1.8.13/aspectjtools-1.8.13.jar" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">

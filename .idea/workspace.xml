@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591865d2-1231-4097-9a41-db3858b6a5ba" name="更改" comment="update">
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/mapper/StudentHisMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/mybatis/SqlInjector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-plus/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/aspect/EntityAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/aspect/EntityAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/entity/TestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jackson/src/main/java/com/xjhqre/entity/TestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/src/test/java/MybatisPlusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-plus/src/test/java/MybatisPlusTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,50 +66,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "aspect.path.notification.shown": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace/springboot-learn/springboot-mybatis-plus/src/main/resources",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.33103448",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "4e20cf7943b6377c0dabd44c4e2c7353",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/springboot-learn/oss-spring-boot-starter/lib&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.33103448&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5a6b3d3858ce8d61a03a0dfa68ea72cd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springboot-learn\oss-spring-boot-starter\lib" />
+      <recent name="D:\workspace\springboot-learn\springboot-mybatis-plus\src\main\java\com\xjhqre\aspect" />
       <recent name="D:\workspace\springboot-learn\springboot-mybatis-plus\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-idempotence\src\main\resources" />
       <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\java\com\xjhqre" />
-      <recent name="D:\workspace\springboot-learn\springboot-redis\src\main\resources" />
-      <recent name="D:\workspace\springboot-learn\springboot-request-limit\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\springboot-learn\springboot-oss\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xjhqre.mapper" />
       <recent name="com.xjhqre" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlusTest.test1">
+  <component name="RunManager" selected="JUnit.MybatisPlusTest.test2">
     <configuration name="IdempotenceTest.interfaceIdempotenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-idempotence" />
       <extension name="coverage">
@@ -133,40 +140,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjhqre.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xjhqre" />
-      <option name="MAIN_CLASS_NAME" value="com.xjhqre.RedisTest" />
-      <option name="METHOD_NAME" value="test1" />
+    <configuration name="MybatisPlusTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-mybatis-plus" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisPlusTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
-      <envs>
-        <env name="--spring.redis.host" value="116.62.103.149" />
-      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjhqre.App" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xjhqre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xjhqre" />
-      <option name="MAIN_CLASS_NAME" value="com.xjhqre.RedisTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <envs>
-        <env name="--spring.redis.host" value="116.62.103.149" />
-      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,21 +194,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MybatisPlusTest.test2" />
       <item itemvalue="JUnit.MybatisPlusTest.test1" />
       <item itemvalue="JUnit.IdempotenceTest.interfaceIdempotenceTest" />
-      <item itemvalue="JUnit.RedisTest.test1" />
-      <item itemvalue="JUnit.RedisTest.test2" />
       <item itemvalue="Spring Boot.IdempotenceApp" />
       <item itemvalue="Spring Boot.OssApp" />
+      <item itemvalue="Spring Boot.App" />
       <item itemvalue="Spring Boot.RequestLimitApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisPlusTest.test2" />
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.MybatisPlusTest.test1" />
         <item itemvalue="JUnit.IdempotenceTest.interfaceIdempotenceTest" />
         <item itemvalue="Spring Boot.RequestLimitApp" />
-        <item itemvalue="JUnit.RedisTest.test1" />
-        <item itemvalue="JUnit.RedisTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +231,15 @@
       <workItem from="1694590836144" duration="3157000" />
       <workItem from="1694655195446" duration="22000" />
       <workItem from="1695280916512" duration="872000" />
-      <workItem from="1695695533743" duration="9307000" />
+      <workItem from="1695695533743" duration="9921000" />
+      <workItem from="1696993361148" duration="741000" />
+      <workItem from="1697181391533" duration="700000" />
+      <workItem from="1698813240981" duration="1433000" />
+      <workItem from="1699437297699" duration="13000" />
+      <workItem from="1702475383598" duration="1213000" />
+      <workItem from="1702517348298" duration="99000" />
+      <workItem from="1704876188612" duration="1652000" />
+      <workItem from="1705301540267" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -337,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695702872015</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <option name="closed" value="true" />
+      <created>1695711632862</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695711632862</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +362,11 @@
           <url>jar://$PROJECT_DIR$/../../maven/repository/com/baomidou/mybatis-plus-core/3.4.2/mybatis-plus-core-3.4.2-sources.jar!/com/baomidou/mybatisplus/core/injector/methods/SelectOne.java</url>
           <line>37</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis-plus/src/main/java/com/xjhqre/mybatis/SqlInjector.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

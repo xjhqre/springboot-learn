@@ -1,6 +1,7 @@
 package com.xjhqre.entity;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 /**
  * <p>
@@ -17,6 +18,8 @@ public class TestDTO {
 
     private String name;
 
+    private List<String> ids;
+
     public LocalDateTime getLocalDateTime() {
         return localDateTime;
     }
@@ -31,6 +34,14 @@ public class TestDTO {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<String> getIds() {
+        return ids;
+    }
+
+    public void setIds(List<String> ids) {
+        this.ids = ids;
     }
 
     @Override

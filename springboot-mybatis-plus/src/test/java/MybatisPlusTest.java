@@ -8,6 +8,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.xjhqre.MybatisPlusApp;
 import com.xjhqre.entity.Student;
+import com.xjhqre.mapper.StudentHisMapper;
 import com.xjhqre.mapper.StudentMapper;
 
 /**
@@ -24,6 +25,17 @@ public class MybatisPlusTest {
 
     @Resource
     StudentMapper studentMapper;
+    @Resource
+    StudentHisMapper studentHisMapper;
+
+    @Test
+    public void test2() {
+        Student student = new Student();
+        student.setId(3L);
+        student.setName("cs2");
+        student.setAge(181);
+        studentHisMapper.insert(student);
+    }
 
     @Test
     public void test1() {

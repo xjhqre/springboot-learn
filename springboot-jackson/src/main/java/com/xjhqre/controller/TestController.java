@@ -23,6 +23,11 @@ import com.xjhqre.utils.JacksonUtils;
 @RequestMapping("/test")
 public class TestController {
 
+    @PostMapping("/test7")
+    public String test7(TestDTO dto) {
+        return JacksonUtils.obj2Json(dto);
+    }
+
     @GetMapping("/test1")
     public LocalDateTime test1() {
         return LocalDateTime.now();
